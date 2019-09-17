@@ -1,8 +1,8 @@
 {
-  "name": "react-native-airplay-button",
+  "name": "@cbcnewmedia/react-native-airplay-button",
   "title": "React Native Airplay Button",
   "version": "1.0.0",
-  "description": "",
+  "description": "React Native Airplay button component",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
