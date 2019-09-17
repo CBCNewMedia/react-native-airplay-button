@@ -9,7 +9,7 @@ Shows native iOS airplay button. Button will not show in Simulator.
 
 ## Usage
 ```javascript
-import AirplayButton from 'react-native-airplay-button';
+import AirplayButton from '@cbcnewmedia/react-native-airplay-button';
 
 <AirplayButton />
 ```
