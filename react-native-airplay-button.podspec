@@ -6,18 +6,16 @@ Pod::Spec.new do |s|
   s.name         = "react-native-airplay-button"
   s.version      = package["version"]
   s.summary      = package["description"]
-  s.description  = <<-DESC
-                  react-native-airplay-button
-                   DESC
-  s.homepage     = "https://github.com/CBCNewMedia/react-native-airplay-button"
-  s.license      = "MIT"
-  s.authors      = { "Your Name" => "yourname@email.com" }
-  s.platforms    = { :ios => "9.0", :tvos => "10.0" }
+  s.homepage     = package["homepage"]
+  s.license      = package["license"]
+  s.authors      = package["author"]
+
+  s.platforms    = { :ios => "9.0" }
   s.source       = { :git => "https://github.com/CBCNewMedia/react-native-airplay-button.git", :tag => "#{s.version}" }
 
-  s.source_files = "ios/**/*.{h,m,swift}"
-  s.requires_arc = true
+  
+  s.source_files = "ios/**/*.{h,m,mm}"
+  
 
-  s.dependency "React"
+  s.dependency "React-Core"
 end
-

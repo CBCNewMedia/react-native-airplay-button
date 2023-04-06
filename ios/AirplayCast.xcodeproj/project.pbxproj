@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B3E7B58A1CC2AC0600A0062D /* AirplayButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* AirplayButton.m */; };
+		5E555C0D2413F4C50049A1A2 /* AirPlayCast.mm in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* AirPlayCast.mm */; };
+		B1D43D5229DE986C00033668 /* AirplayButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D43D5129DE986C00033668 /* AirplayButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,9 +24,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		134814201AA4EA6300B7C361 /* libAirplayButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAirplayButton.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3E7B5881CC2AC0600A0062D /* AirplayButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirplayButton.h; sourceTree = "<group>"; };
-		B3E7B5891CC2AC0600A0062D /* AirplayButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirplayButton.m; sourceTree = "<group>"; };
+		134814201AA4EA6300B7C361 /* libAirPlayCast.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAirPlayCast.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1D43D5029DE986C00033668 /* AirplayButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirplayButton.h; sourceTree = "<group>"; };
+		B1D43D5129DE986C00033668 /* AirplayButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirplayButton.m; sourceTree = "<group>"; };
+		B3E7B5881CC2AC0600A0062D /* AirPlayCast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirPlayCast.h; sourceTree = "<group>"; };
+		B3E7B5891CC2AC0600A0062D /* AirPlayCast.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AirPlayCast.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +45,7 @@
 		134814211AA4EA7D00B7C361 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				134814201AA4EA6300B7C361 /* libAirplayButton.a */,
+				134814201AA4EA6300B7C361 /* libAirPlayCast.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -50,8 +53,10 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-				B3E7B5881CC2AC0600A0062D /* AirplayButton.h */,
-				B3E7B5891CC2AC0600A0062D /* AirplayButton.m */,
+				B1D43D5029DE986C00033668 /* AirplayButton.h */,
+				B1D43D5129DE986C00033668 /* AirplayButton.m */,
+				B3E7B5881CC2AC0600A0062D /* AirPlayCast.h */,
+				B3E7B5891CC2AC0600A0062D /* AirPlayCast.mm */,
 				134814211AA4EA7D00B7C361 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,9 +64,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		58B511DA1A9E6C8500147676 /* AirplayButton */ = {
+		58B511DA1A9E6C8500147676 /* AirPlayCast */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "AirplayButton" */;
+			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "AirPlayCast" */;
 			buildPhases = (
 				58B511D71A9E6C8500147676 /* Sources */,
 				58B511D81A9E6C8500147676 /* Frameworks */,
@@ -71,9 +76,9 @@
 			);
 			dependencies = (
 			);
-			name = AirplayButton;
+			name = AirPlayCast;
 			productName = RCTDataManager;
-			productReference = 134814201AA4EA6300B7C361 /* libAirplayButton.a */;
+			productReference = 134814201AA4EA6300B7C361 /* libAirPlayCast.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -90,11 +95,12 @@
 					};
 				};
 			};
-			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "AirplayButton" */;
+			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "AirplayCast" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 58B511D21A9E6C8500147676;
@@ -102,7 +108,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				58B511DA1A9E6C8500147676 /* AirplayButton */,
+				58B511DA1A9E6C8500147676 /* AirPlayCast */,
 			);
 		};
 /* End PBXProject section */
@@ -112,7 +118,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3E7B58A1CC2AC0600A0062D /* AirplayButton.m in Sources */,
+				B1D43D5229DE986C00033668 /* AirplayButton.m in Sources */,
+				5E555C0D2413F4C50049A1A2 /* AirPlayCast.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,14 +223,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
-				"$(inherited)",
+					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = AirplayButton;
+				PRODUCT_NAME = AirPlayCast;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -239,7 +246,7 @@
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = AirplayButton;
+				PRODUCT_NAME = AirPlayCast;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -247,7 +254,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "AirplayButton" */ = {
+		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "AirplayCast" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58B511ED1A9E6C8500147676 /* Debug */,
@@ -256,7 +263,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "AirplayButton" */ = {
+		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "AirPlayCast" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58B511F01A9E6C8500147676 /* Debug */,
